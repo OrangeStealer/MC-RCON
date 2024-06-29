@@ -1,7 +1,7 @@
 # Information
   Simple RCON Client For minecraft
   Works on 1.21 and under
-  Depends on [https://pypi.org/project/aio-mc-rcon/](aiomcrcon) for networking
+  Depends on [aiomcrcon](https://pypi.org/project/aio-mc-rcon/) for networking
 # Useage
   ServerPass (Str): Server's Rcon password
   ServerPort (Int): Server's Rcon port (must be forwarded on non local servers)
