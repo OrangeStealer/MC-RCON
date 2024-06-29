@@ -1,8 +1,8 @@
 # Information
-  Simple RCON Client For minecraft
-  Works on 1.21 and under (Newer versions tested when released)
-  Depends on [aiomcrcon](https://pypi.org/project/aio-mc-rcon/) for networking
-  Returns the commands output but cannot read unrelated commands from console.
+  Simple CLI RCON client For minecraft. <p>
+  Works on 1.21 and under (Newer versions tested when released) <p>
+  Depends on [aiomcrcon](https://pypi.org/project/aio-mc-rcon/) for networking <p>
+  Returns the commands output but cannot read unrelated commands from console. <p>
 # Configuring
   ServerPass (Str): Server's Rcon password.<p>
   ServerPort (Int): Server's Rcon port. (must be forwarded on non local servers)<p>
