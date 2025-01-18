@@ -23,7 +23,6 @@ async def Init(IP,Port,Pass,CMD):
     
     await client.close()
 
-#asyncio.run(Init(ServerTSNIP,ServerPort,ServerPass,"list"))
 
 def ServerCheck():
     if ServerTSNIP != "":
@@ -33,7 +32,6 @@ def ServerCheck():
         if (status != "INCORRECT PASSWORD" or status != "INCORRECT PASSWORD"):
             time.sleep(2)
             print("Connected Via Tailscale Network.")
-            #print("IP: " + str(ServerTSNIP) + ", Port: " + str(ServerPort))
     elif ServerIP != "":
         print("Attempting Connection Via Public Network...")
         print("IP: " + str(ServerIP) + ", Port: " + str(ServerPort))
@@ -41,7 +39,6 @@ def ServerCheck():
         if (status != "INCORRECT PASSWORD" or status != "INCORRECT PASSWORD"):
             time.sleep(2)
             print("Connected Via Public Network.")
-            #print("IP: " + ServerIP + ", Port: " + ServerPort)
     else:
         print("No IP Found.")
     
